@@ -1,0 +1,198 @@
+/** ⇩⇩⇩ MARCOS HERNAN PARELLA ⇩⇩⇩*/
+
+
+
+/* Reseteo de valores. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+/** ======== HEADER ======= */
+
+
+/* Se agregó flex a todo el header. */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Se agregó padding, estilo a la letra y tamaño al título. */
+.header__h1{
+    padding-top: 70px;
+    padding-bottom: 65px;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+/* Se agregó bordes al navegador. */
+.header__div__nav{
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+}
+
+/* Se agregó padding y flex al navegador. */
+.header__ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+/* Se agregó fuente de estilo, se agrandó la letra y se quitó punto. */
+.header__ul__li{
+    font-family: 'roboto', serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+/* Se agregó medidas y padding a la img (Puntitos de color). */
+.header__img{
+    width: 60px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/** FOOTER */
+
+
+/* Se agregó padding y flex al footer. */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Se agregó padding, flex y bordes negros al fotter. */
+.footer__div{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-top: #000000 1px solid;
+}
+
+/* Se agregó padding a los parrafos. */
+.footer__div__p1{
+    padding-right: 30px;
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #BDD8F3;
+    border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-facebook:hover{
+    animation-name: footerImg;
+    animation-duration: initial;
+    animation-fill-mode: forwards;
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #E1EFDF;
+    border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-twitter:hover{
+    animation-name: footerImg;
+    animation-duration: initial;
+    animation-fill-mode: forwards;
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-steam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #FFE5EF;
+    border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-steam:hover{
+    animation-name: footerImg;
+    animation-duration: initial;
+    animation-fill-mode: forwards;
+}
+
+/* Se agregó padding al parrafo del footer. */
+.footer__div__p2{
+    padding-left: 30px;
+}
+
+/* Animación para las imagenes del footer. */
+@keyframes footerImg {
+    0% { height: 62px; width: 62px;}
+    50% { height: 66px; width: 66px;}
+    100% { height: 70px; width: 70px;}
+}
+
+
+
+/** BODY */
+
+
+/* Se agregó un fondo a todo el body. */
+body {
+    background-image: url("/assents/bg.png");
+}
+
+
+
+/** ======== INDEX ======= */
+
+
+/* Display flex center. */
+.display__flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+/* Alto a la imagén de la consola de video juegos. */
+.index__img__consola{
+    height: 550px;
+    width: auto;
+}
+
+/* Font Family, tamaño de leta y alto del parrajo. */
+.index__section__p{
+    font-family: 'roboto', serif;
+    font-size: 23px;
+    width: 600px;
+}
+
+/* Alto de la imagén de las manos.*/
+.index__img__manos{
+    height: 280px;
+    width: auto;
+}
+
+
+
+/** ⇧⇧⇧ MARCOS HERNAN PARELLA ⇧⇧⇧*/
