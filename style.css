@@ -160,7 +160,7 @@ footer{
 
 /* Se agregó un fondo a todo el body. */
 body {
-    background-image: url("/assents/bg.png");
+    background-image: url("assents/bg.png");
 }
 
 
