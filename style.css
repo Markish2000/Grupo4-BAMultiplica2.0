@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: #000000;
+    font-family: 'roboto', serif;
 }
 
 
@@ -47,7 +47,6 @@ header {
 
 /* Se agregó fuente de estilo, se agrandó la letra y se quitó punto. */
 .header__ul__li{
-    font-family: 'roboto', serif;
     font-size: 20px;
     list-style: none;
 }
@@ -196,3 +195,168 @@ body {
 
 
 /** ⇧⇧⇧ MARCOS HERNAN PARELLA ⇧⇧⇧ **/
+
+
+
+/** ======== RECOMENDACIONES ======= **/
+
+
+/** ⇩⇩⇩ SECTOR MICHEL ⇩⇩⇩ */
+
+
+/* boxes, tamaño de letra/box padding, opacidad - y sombras  */
+.recomendaciones__main_section__ul__li_box-verde, .recomendaciones__main_section__ul__li_box-celeste, .recomendaciones__main_section__ul__li_box-rosa {
+    font-size: 25px;
+    padding: 5px 30px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px;
+    opacity: 50%; 
+}
+
+/* color a cada box */
+.recomendaciones__main_section__ul__li_box-verde {
+    background-color: #2af110; 
+}
+
+/* color a cada box */
+.recomendaciones__main_section__ul__li_box-rosa {
+    background-color: #df779f; 
+}
+
+/* color a cada box */
+.recomendaciones__main_section__ul__li_box-celeste {
+    background-color: #bdd8f3; 
+}
+
+/* hover para aumentar su opacidad y una transicion suave */
+.recomendaciones__main_section__ul__li_box-verde:hover, .recomendaciones__main_section__ul__li_box-rosa:hover, .recomendaciones__main_section__ul__li_box-celeste:hover {
+    opacity: 100%;
+    transition: all 300ms ease-in-out; 
+}
+
+/*  */
+.recomendaciones__main_section__ul{
+    text-align: center;
+    display: block;
+    list-style: none;
+}
+
+/*  */
+.recomendaciones__main_section__ul-pd{
+    margin-bottom: 2%; 
+    margin-top: 2%;
+}
+
+/*  */
+.recomendaciones__main_section__ul__li{
+    padding: 15px
+}
+
+
+
+/** ⇧⇧⇧ FIN SECTOR MICHEL ⇧⇧⇧ */
+
+
+
+/** ⇩⇩⇩ FRANCO ⇩⇩⇩ */
+
+/*  */
+.recomendaciones__main__section__iframe{
+    margin-top: 60px;
+    margin-inline: 10%;
+    width: 80%;
+}
+
+/* .recomendaciones__h3{
+    background-color: rgb(247, 220, 224);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    letter-spacing: 15px;
+    font-weight: 100;
+    padding: 1%;
+    margin-top: 5px;
+}
+
+section h3{
+    margin-bottom: 40px;
+    text-align: left;
+} */
+
+/*  */
+.recomendaciones__section{
+    padding: 2% 20% 2% 20%;
+}
+
+/*  */
+.recomendaciones__section__img{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/*  */
+.recomendaciones__section__p{
+    text-align: center;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/** ⇧⇧⇧ FRANCO ⇧⇧⇧  */
+
+
+
+/** ======== NUESTRO LOCAL ======= **/
+
+
+/** ⇩⇩⇩ MARINA AGOTEGARAY Y MICAELA MEDINA ⇩⇩⇩ */
+
+
+/*  */
+.nuestroLocal_tituloPrincipal_section_div{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'roboto', serif;
+    font-size: 2.5em;
+}
+
+/*  */
+.nuestroLocal_tituloMedio_section_div{
+    background-color:#ffe5ef; 
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    letter-spacing: 15px;
+    font-family: 'roboto', serif;
+    font-size: 2em;
+}
+
+/*  */
+.nuestroLocal_imagen_section_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*  */
+.nuestroLocal_parrafo_section_div{
+    font-family: 'roboto', serif;
+    text-align: justify;
+    width: 50%;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  */
+.nuestroLocal_imagenes_section_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/** ⇧⇧⇧ MARINA AGOTEGARAY Y MICAELA MEDINA ⇧⇧⇧  */
