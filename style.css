@@ -203,7 +203,7 @@ body {
 /** ⇩⇩⇩ SECTOR MICHEL ⇩⇩⇩ */
 
 
-/* boxes, tamaño de letra/box padding, opacidad - y sombras  */
+/* Boxes, tamaño de letra/box padding, opacidad y sombras.  */
 .recomendaciones__main_section__ul__li_box-verde, .recomendaciones__main_section__ul__li_box-celeste, .recomendaciones__main_section__ul__li_box-rosa {
     font-size: 25px;
     padding: 5px 30px;
@@ -212,22 +212,22 @@ body {
     opacity: 50%; 
 }
 
-/* color a cada box */
+/* Color a cada box. */
 .recomendaciones__main_section__ul__li_box-verde {
     background-color: #2af110; 
 }
 
-/* color a cada box */
+/* Color a cada box. */
 .recomendaciones__main_section__ul__li_box-rosa {
     background-color: #df779f; 
 }
 
-/* color a cada box */
+/* Color a cada box. */
 .recomendaciones__main_section__ul__li_box-celeste {
     background-color: #bdd8f3; 
 }
 
-/* hover para aumentar su opacidad y una transicion suave */
+/* Hover para aumentar su opacidad y una transicion suave. */
 .recomendaciones__main_section__ul__li_box-verde:hover, .recomendaciones__main_section__ul__li_box-rosa:hover, .recomendaciones__main_section__ul__li_box-celeste:hover {
     opacity: 100%;
     transition: all 300ms ease-in-out; 
@@ -257,7 +257,7 @@ body {
 
 
 
-/** ⇩⇩⇩ FRANCO ⇩⇩⇩ */
+/** ⇩⇩⇩ ??? ⇩⇩⇩ */
 
 /*  */
 .recomendaciones__main__section__iframe{
@@ -302,7 +302,7 @@ section h3{
 
 
 
-/** ⇧⇧⇧ FRANCO ⇧⇧⇧  */
+/** ⇧⇧⇧ ??? ⇧⇧⇧  */
 
 
 
@@ -359,3 +359,63 @@ section h3{
 
 
 /** ⇧⇧⇧ MARINA AGOTEGARAY Y MICAELA MEDINA ⇧⇧⇧  */
+
+
+
+/** ======== NUESTRO LOCAL ======= **/
+
+
+/** ⇩⇩⇩ FRANCO BARGAS ⇩⇩⇩ */
+
+
+/* Section Display FAQ. */
+.contacto__display__flex__faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto;
+    margin: auto;
+    padding: 0;
+    max-width: 1140px;
+}
+
+/* Caja Contenedor. */
+.contacto__section__div__caja{
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+}
+
+/* Caja Columnas. */
+.contacto__section__div__columnas{
+    display: flex;
+    justify-content: center;
+}
+
+/* Titulo FAQ. */
+.contacto__section__div__h3 h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Subtitulo de las Columnas. */
+.contacto__section__div__div__columnas__h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+/* Parrafo de las Columnas. */
+.contacto__section__div__div__columnas__p{
+    display: center;
+    justify-content: center;
+    padding: 0 .5rem 0 .5rem;
+}
+
+
+/** ⇧⇧⇧ FRANCO BARGAS ⇧⇧⇧  */
