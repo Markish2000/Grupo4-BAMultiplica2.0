@@ -6,10 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="../assents/favicon.ico">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-
+    <!-- Header con nav. -->
+    <header>
+        <div class="header__h1">
+            <h1><a href="../index.html">Lacuna</a></h1>
+        </div>
+        <div class="header__div__nav">
+            <ul class="header__ul">
+                <li class="header__ul__li"><a href="../index.html">Inicio</a></li>
+                <img class="header__img" src="../assents/headerpuntoverde.png" alt="Punto verde">
+                <li class="header__ul__li"><a href="nuestrolocal.html">Nuestro local</a></li>
+                <img class="header__img" src="../assents/headerpuntorosa.png" alt="Punto rosa">
+                <li class="header__ul__li"><a href="recomendaciones.html">Recomendaciones</a></li>
+                <img class="header__img" src="../assents/headerpuntoverde.png" alt="Punto verde">
+                <li class="header__ul__li"><a href="contacto.html">Contacto</a></li>
+                <img class="header__img" src="../assents/headerpuntorosa.png" alt="Punto rosa">
+                <li class="header__ul__li"><a href="#">Turnos</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="turnos__section__padre">
+            <!-- Sección título y título medio -->
+            <div class="turnos__section__h1-pd">
+                <h1 class="turnosTitulo__section_div">¡Reservá tu turno!</h1>
+            </div>
+            <h2 class="turnosTituloMedio__section_div">Disfrutá con nosotros.</h2>
+            <!-- Sección tabla -->
+            <table border="1">
+                <!-- Agregué columnas -->
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Disponibilidad</th>
+                </tr>
+                <!-- Agregué filas -->
+                <tr>
+                    <td>Lunes 13-6</td>
+                    <td>17 a 18hs</td>
+                    <td class="turnosdisponible__section_div">✓</td>
+                </tr>
+                <tr>
+                    <td>Martes 14-6</td>
+                    <td>17 a 18hs</td>
+                    <td class="turnosnodisponible__section_div">X</td>
+                </tr>
+                <tr>
+                    <td>Miércoles 15-6</td>
+                    <td>16 a 17hs</td>
+                    <td class="turnosdisponible__section_div">✓</td>
+                </tr>
+                <tr>
+                    <td>Jueves 16-6</td>
+                    <td>16 a 18hs</td>
+                    <td class="turnosnodisponible__section_div">X</td>
+                </tr>
+                <tr>
+                    <td>Viernes 17-6</td>
+                    <td>16 a 22hs</td>
+                    <td class="turnosnodisponible__section_div">X</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Sección botón -->
+        <div class="turnosReserva__section_div">
+            <!-- Agregué botón Reservar-->
+            <input type="submit" value="Reservar" class="turnosboton__section_div">
+        </div>
+        <!-- Sección Imágenes Info-->
+        <section class="turnosimagenes__section_div">
+        </section>
+    </main>
+    <!-- Footer con iconos de redes sociales. -->
+    <footer>
+        <div class="footer__div">
+            <p class="footer__div__p1">¡Buscá nuestras redes sociales!</p>
+            <div class="footer__img-facebook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../assents/facebook.svg"
+                        alt="Facebook"></a>
+            </div>
+            <div class="footer__img-twitter">
+                <a href="https://twitter.com/home" target="_blank"><img src="../assents/twitter.svg" alt="Twitter"></a>
+            </div>
+            <div class="footer__img-steam">
+                <a href="https://store.steampowered.com/" target="_blank"><img src="../assents/steam.svg"
+                        alt="Steam"></a>
+            </div>
+            <p class="footer__div__p2">Web 2022 - Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>

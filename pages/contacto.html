@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Header con nav. -->
     <header>
         <div class="header__h1">
             <h1><a href="../index.html">Lacuna</a></h1>
@@ -30,6 +31,39 @@
         </div>
     </header>
     <main>
+        <!-- titulos! -->
+        <div class="contacto__div__titulos">
+            <hr class="contacto__lineahr">
+            <h1 class="contacto__h1__titulo">¡Mantengámonos en contacto!</h1>
+            <h2 class="contacto__h2__titulo2">Contactanos.</h2>
+        </div>
+        <!-- formularios -->
+        <section class="contacto">
+            <form class="contacto__forms">
+                <label class="contacto__nombres__formularios" for="usuario">Usuario</label>
+                <input class="cuadro" type="text" name="usuario" />
+                <label class="contacto__nombres__formularios" for="Contraseña">Contraseña</label>
+                <input class="cuadro" type="password" name="Contraseña" id="pass" />
+                <div class="contacto__div__textarea">
+                    <label for="mensaje">Dejanos un mensaje</label>
+                    <textarea name="textarea" rows="10" cols="30" style="height: 230px"></textarea>
+                </div>
+                <div class="contacto__div__checkForm">
+                    <label for="urgente">Marcar como urgente</label>
+                    <input type="radio" name="ugente" value="marcar como urgente">
+                </div>
+                <div class="checkForm">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto recibir notificaciones en mi mail.</label>
+                </div>
+                <div class="contacto__div_botonEnviar">
+                    <input class="contacto__botonEnviar" type="submit" value="Enviar" />
+                </div>
+            </form>
+        </section>
+        <div>
+            <hr class="contacto__lineahr">
+        </div>
         <section class="contacto__display__flex__faq">
             <div class="contacto__section__div__h3">
                 <h3>FAQ</h3>

@@ -312,12 +312,23 @@ section h3{
 /** ⇩⇩⇩ MARINA AGOTEGARAY Y MICAELA MEDINA ⇩⇩⇩ */
 
 
+/* Padding al main. */
+.nuestroLocal__main-pd{
+    padding-top: 50px;
+}
+
 /*  */
 .nuestroLocal_tituloPrincipal_section_div{
     text-align: center;
     letter-spacing: 5px;
     font-family: 'roboto', serif;
     font-size: 2.5em;
+}
+
+/* Padding al h2. */
+.nuestroLocal__main__h2-pd{
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 /*  */
@@ -341,6 +352,8 @@ section h3{
 
 /*  */
 .nuestroLocal_parrafo_section_div{
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'roboto', serif;
     text-align: justify;
     width: 50%;
@@ -362,7 +375,98 @@ section h3{
 
 
 
-/** ======== NUESTRO LOCAL ======= **/
+/** ======== CONTACTO ======= **/
+
+
+/** ⇩⇩⇩ CHRISTIAN NUÑEZ ⇩⇩⇩ */
+
+
+/* titulo principal */
+.contacto__h1__titulo {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 2%;
+    font-weight: 500;
+}
+
+/* titulo secundario */
+.contacto__h2__titulo2 {
+    background-color: #ffe5ef;
+    letter-spacing: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffe5ef;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-weight: 500;
+}
+
+/* titulos formularios */
+.contacto__nombres__formularios {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* textarea */
+.contacto__div__textarea {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* formularios */
+.contacto__forms {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+/* id formularios */
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+/* botones de check */
+.contacto__div__checkForm {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* boton enviar */
+.contacto__botonEnviar{
+    background: #ffe5ef;
+    color: #2b2b2b;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+}
+
+/* linea hr divisoria */
+.contacto__lineahr {
+    height: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/** ⇧⇧⇧ CHRISTIAN NUÑEZ ⇧⇧⇧  */
 
 
 /** ⇩⇩⇩ FRANCO BARGAS ⇩⇩⇩ */
@@ -419,3 +523,119 @@ section h3{
 
 
 /** ⇧⇧⇧ FRANCO BARGAS ⇧⇧⇧  */
+
+
+
+/** ======== TURNOS ======= **/
+
+
+/** ⇩⇩⇩ FLORENCIA PEDRAZA ⇩⇩⇩ */
+
+
+/* Padding a la primera sección. */
+.turnos__section__padre{
+    padding-top: 50px;
+}
+
+/* Padding al título. */
+.turnos__section__h1-pd{
+    padding-bottom: 30px;
+}
+
+/* Personalicé fuente del título. */
+.turnosTitulo__section_div {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Personalicé fuente, ancho y pading del título medio. */
+.turnosTituloMedio__section_div {
+    background-color: #ffe5ef;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+/* Personalicé bordes, márgenes y fuente de tabla. */
+table {
+    border-collapse: collapse;
+    border-color: #E1EFDF;
+    border: 1px solid #E1EFDF;
+    border-width: 3px;
+    border-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Personalicé bordes y padding de filas y columnas de tabla. */
+table, th, td {
+    border-collapse: collapse;
+    border-color: #E1EFDF;
+    border: 1px solid #E1EFDF;
+    border-width: 3px;
+    padding: 1px 10px;
+    text-align: center;
+}
+table th {
+    border-collapse: collapse;
+    border-color: #E1EFDF;
+    border: 1px solid #E1EFDF;
+    border-width: 3px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+table td {
+    border-width: 3px;
+    padding: 10px 10px;
+    text-align: center;
+}
+tr:nth-of-type(1) > th {
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+    border-color: #E1EFDF;
+    border-width: 3px;
+    text-align: center;
+}
+
+/* Personalicé fondo de columna Disponible. */
+.turnosdisponible__section_div {
+    background-color:#E1EFDF;
+}
+
+/* Personalicé fondo de columna No Disponible. */
+.turnosnodisponible__section_div {
+    background-color: #ffe5ef;
+}
+
+/* Personalicé Sección botón. */
+.turnosReserva__section_div {
+    text-align: center;
+}
+
+/* Personalicé fuente, fondo y bordes de botón Reservar. */
+.turnosboton__section_div {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    background: #ffe5ef;
+    border: 1px solid #eee;
+    border-radius: 15px;  
+    box-shadow: 3px 3px 3px #eee;
+    width: 80px;
+    height: 30px;
+}
+
+
+/** ⇧⇧⇧ FLORENCIA PEDRAZA ⇧⇧⇧  */
