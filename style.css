@@ -162,8 +162,13 @@ footer{
 
 
 /* Se agregó un fondo a todo el body. */
-body {
-    background-image: url("assents/bg.png");
+body{
+    width: 100%;
+    background-image: url("/assents/bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFFDF2; 
 }
 
 
