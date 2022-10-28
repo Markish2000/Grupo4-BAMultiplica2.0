@@ -1,0 +1,298 @@
+/* RESET */
+
+* {
+    Margin:0;
+    padding:0;
+    text-decoration: none;
+    color: #000000;
+    box-sizing: border-box;
+} 
+
+
+/** ⇩⇩⇩ MARCOS HERNAN PARELLA ⇩⇩⇩ **/
+
+/** ======== HEADER ======= **/
+
+
+/* Se agregó flex a todo el header. */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Se agregó padding, estilo a la letra y tamaño al título. */
+.header__h1{
+  padding-top: 70px;
+  padding-bottom: 65px;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+}
+
+/* Hover al h1 */
+.header__h1{
+  color: #2af110;
+}
+
+/* Se agregó bordes al navegador. */
+.header__div__nav{
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+}
+
+/* Se agregó padding y flex al navegador. */
+.header__ul{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+/* Se agregó fuente de estilo, se agrandó la letra y se quitó punto. */
+.header__ul__li{
+  font-size: 20px;
+  list-style: none;
+}
+
+/* Animación a los li */
+.header__ul__li:hover{
+  transition: .3s;
+  transform:scale(1.2);
+}
+
+/* color a los anclas */
+.header__ul__li-hv:hover{
+  color: #B35291;
+}
+
+/* Se agregó medidas y padding a la img (Puntitos de color). */
+.header__img{
+  width: 60px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  /** ⇧⇧⇧ MARCOS HERNAN PARELLA ⇧⇧⇧ **/
+
+  /** BODY **/
+
+body{
+  width: 100%;
+    background-image: url(../bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFFDF2; 
+    
+}
+
+
+/* SECTOR MICHEL */
+
+/* boxes, tamaño de letra/box padding, opacidad - y sombras  */
+
+.box, .box-amarillo, .box-violeta, .box-azul, .box-rojo, .box-verde, .box-celeste, .box-rosa {
+    font-size: 25px;
+    padding: 5px 30px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px;
+    opacity: 50%; }
+  
+  /* color a cada box */
+  .box-verde {
+    background-color: #2af110; }
+  
+  .box-rosa {
+    background-color: #df779f; }
+  
+  .box-celeste {
+    background-color: #bdd8f3; }
+  
+  .box-rojo {
+    background-color: #ff0000; }
+  
+  .box-amarillo {
+    background-color: #eeff00; }
+  
+  .box-violeta { 
+    background-color: #7e0077; }
+  
+  .box-azul {
+    background-color: #10009e; }
+  
+  /* hover para aumentar su opacidad y una transicion suave */
+  .box:hover, .box-violeta:hover, .box-amarillo:hover, .box-azul:hover, .box-rojo:hover, .box-rojo:hover, .box-verde:hover, .box-rosa:hover, .box-celeste:hover {
+    opacity: 100%;
+    transition: all 300ms ease-in-out; }
+
+    .center{
+        text-align: center;
+        display: block;
+        list-style: none;
+    }
+
+    .center li{
+        padding: 15px
+    }
+
+/* FIN SECTOR MICHEL */
+
+
+
+/* Títulos*/
+
+
+.main__header{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.main__header h1{
+    font-size:xx-large;
+    margin-top: 30px;
+    padding: 2%;
+    letter-spacing: 2px;
+}
+
+.main__header h2{
+    font-size:x-large;
+    letter-spacing: 15px;
+    padding: 1%;
+    background-color: rgb(247, 220, 224);
+}
+
+.main__header img{
+    margin-top: 60px;
+    padding: 0 35% 0 35%;
+    width: 100%;
+}
+
+
+
+/*RECOMENDACIONES*/
+
+.main__recomendation iframe{
+    margin-top: 60px;
+    margin-inline: 10%;
+    width: 80%;
+}
+
+h3{
+    background-color: rgb(247, 220, 224);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    letter-spacing: 15px;
+    font-weight: 100;
+    padding: 1%;
+    margin-top: 5px;
+}
+
+section{
+    padding: 2% 20% 2% 20%;
+}
+
+section div{
+    border-top: #b8b4b4 1px solid;
+    width: 50%;
+    margin-left: 20%;
+}
+
+section img{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+section h3{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+section p{
+    text-align: center;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/** FOOTER **/
+
+
+/* Se agregó padding y flex al footer. */
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Se agregó padding, flex y bordes negros al fotter. */
+.footer__div{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-top: #000000 1px solid;
+}
+
+/* Se agregó padding a los parrafos. */
+.footer__div__p1{
+  padding-right: 30px;
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-facebook{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: #BDD8F3;
+  border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-facebook:hover{
+  transition: .3s;
+  transform:scale(1.2);
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-twitter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: #E1EFDF;
+  border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-twitter:hover{
+  transition: .3s;
+  transform:scale(1.2);
+}
+
+/* Se agregó flex, medidas, background y bordes redondos a las img del footer. */
+.footer__img-steam{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: #FFE5EF;
+  border-radius: 100%;
+}
+
+/* Se agregó una animación a los iconos al tocarlos. */
+.footer__img-steam:hover{
+  transition: .3s;
+  transform:scale(1.2);
+}
+
+/* Se agregó padding al parrafo del footer. */
+.footer__div__p2{
+  padding-left: 30px;
+}
